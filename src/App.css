@@ -1,0 +1,39 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+}
+
+#containerRight {
+  height: 100vh;
+  width: 50vw;
+}
+
+#containerLeft {
+  width: 50vw;
+  align-self: center ;
+  justify-items: center;
+}
+
+
+body {
+  background-color: rgb(196, 205, 226);
+}
+
+.pokeApi {
+  height: 25%;
+  display: flex;
+  justify-self: center;
+}
+
+#pokemonContainer {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  justify-self: center;
+}
+
+
+
