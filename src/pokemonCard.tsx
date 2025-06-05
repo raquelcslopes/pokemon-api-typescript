@@ -46,7 +46,7 @@ export const PokemonCard = (props: PokemonCardProps) => {
       <Value>{props.pokemon?.name}</Value>
       <Value>{props.pokemon?.height}</Value>
       <Value>{props.pokemon?.ability}</Value>
-      <Value>{props.pokemon?.attack}</Value>
+      <Value aria-label="attack-value">{props.pokemon?.attack}</Value>
       <Value>{props.pokemon?.speed}</Value>
       </Column>
       </InfoContainer>
