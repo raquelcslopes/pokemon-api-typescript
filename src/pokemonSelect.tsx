@@ -1,5 +1,4 @@
 import { PokemonSelectorProps } from "./App";
-import { Pokemon } from "./App";
 
 export const PokemonSelect = (props: PokemonSelectorProps) => {
   return (

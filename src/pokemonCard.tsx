@@ -1,4 +1,3 @@
-import { PureComponent } from "react";
 import { PokemonCardProps } from "./App";
 import  styled from "styled-components";
 
